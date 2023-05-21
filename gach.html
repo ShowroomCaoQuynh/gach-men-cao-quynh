@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Showroom</title>
+  <!-- custom css link -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/slider.css">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/zalo.css">
+
+  <!-- Font awesome  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Boxicons CDN Link -->
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+  <!-- Bootstap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- Open Sans font  -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <nav>
+    <div class="navbar">
+      <i class='bx bx-menu'></i>
+      <div class="logo">
+        <img src="/image/Logos/QC_logo.webp">
+      </div>
+      <div class="nav-links">
+        <div class="sidebar-logo">
+          <span class="logo-name">CQ</span>
+          <i class='bx bx-x'></i>
+        </div>
+        <ul class="links">
+          <li><a href="/index.html">HOME</a></li>
+          <li>
+            <a href="/thiet-bi.html">THIẾT BỊ</a>
+            <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+            <ul class="htmlCss-sub-menu sub-menu">
+              <li><a href="/thiet-bi.html#bon-ve-sinh">BỒN VỆ SINH</a></li>
+              <li><a href="/thiet-bi.html#chau-rua-mat">CHẬU RỬA MẶT</a></li>
+              <li><a href="/thiet-bi.html#chau-rua-bat">CHẬU RỬA BÁT</a></li>
+              <li><a href="/thiet-bi.html#sen-voi">SEN VÒI</a></li>
+              <li><a href="/thiet-bi.html#binh-nong-lanh">BÌNH NÓNG LẠNH</a></li>
+              <li class="more">
+                <span><a href="#More">More</a>
+                  <i class='bx bxs-chevron-right arrow more-arrow'></i>
+                </span>
+                <ul class="more-sub-menu sub-menu">
+                  <li><a href="#">COMING SOON</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="/gach.html">GẠCH</a>
+            <i class='bx bxs-chevron-down js-arrow arrow '></i>
+            <ul class="js-sub-menu sub-menu">
+              <li><a href="/gach.html#gach-op-lat">GẠCH ỐP TƯỜNG NHÀ</a></li>
+              <li><a href="/gach.html#gach-lat-nen-nha">GẠCH LÁT NỀN NHÀ</a></li>
+              <li><a href="/gach.html#gach-san-vuon">GẠCH SÂN VƯỜN</a></li>
+              <li><a href="/gach.html#gach-nen-nha-tam">GẠCH NỀN NHÀ TẮM</a></li>
+              <li><a href="/gach.html#gach-trang-tri">GẠCH TRANG TRÍ</a></li>
+              <li><a href="/gach.html#gach-tranh">GẠCH ỐP TRANH</a></li>
+              <li><a href="/gach.html#gach-tham">GẠCH THẢM</a></li>
+            </ul>
+          </li>
+          <li><a href="/son.html">SƠN</a></li>
+          <li><a href="https://goo.gl/maps/ZgVkjAxYu5rxD4uX8">ĐỊA CHỈ</a></li>
+        </ul>
+      </div>
+      <div class="search-box">
+        <i class='bx bx-search'></i>
+        <div class="input-box">
+          <input type="text" placeholder="Search...">
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section class="main swiper mySwiper">
+    <div class="wrapper swiper-wrapper">
+      <div class="slide swiper-slide">
+        <img src="image/Banner/showroom-banner.webp" alt="" class="image" />
+        <div class="image-data">
+          <span class="text">Chào Mừng Đến Với</span>
+          <h3>
+            Showroom Cao Quỳnh
+          </h3>
+          <a href="https://goo.gl/maps/ZgVkjAxYu5rxD4uX8" class="button">Xem Địa Chỉ</a>
+        </div>
+      </div>
+      <div class="slide swiper-slide">
+        <img src="image/Banner/brick-banner.webp" alt="" class="image" />
+        <div class="image-data">
+          <span class="text">Ở Đây Chúng Tôi Có</span>
+          <h3>
+            Gạch Men
+          </h3>
+          <a href="/gach.html" class="button">Xem Trang Gạch</a>
+        </div>
+      </div>
+      <div class="slide swiper-slide">
+        <img src="image/Banner/paint-banner.webp" alt="" class="image" />
+        <div class="image-data">
+          <span class="text">Bảo Hành Từ 8 Đến 10 Năm</span>
+          <h3>
+            Sơn
+          </h3>
+          <a href="/son.html" class="button">Xem Trang Sơn</a>
+        </div>
+      </div>
+      <div class="slide swiper-slide">
+        <img src="image/Banner/device-banner.webp" alt="" class="image" />
+        <div class="image-data">
+          <span class="text">Bền Bỉ & Hợp Phong Thuỷ</span>
+          <h3>
+            Thiết Bị
+          </h3>
+          <a href="/thiet-bi.html" class="button">Xem Thiết Bị</a>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-button-next nav-btn"></div>
+    <div class="swiper-button-prev nav-btn"></div>
+    <div class="swiper-pagination"></div>
+  </section>
+
+
+  <div class="float-icon-hotline">
+    <ul class="left-icon hotline">
+      <li class="hotline_float_icon"><a target="_blank" rel="nofollow" id="messengerButton"
+          href="https://zalo.me/0975729739"><i class="fa fa-zalo animated infinite tada"></i><span>Zalo</span></a></li>
+    </ul>
+  </div>
+
+  <div class="hotline-phone-ring-wrap">
+    <div class="hotline-phone-ring">
+      <div class="hotline-phone-ring-circle"></div>
+      <div class="hotline-phone-ring-circle-fill"></div>
+      <div class="hotline-phone-ring-img-circle"> <a href="tel:0975729739" class="pps-btn-img"> <img
+            src="https://netweb.vn/img/hotline/icon.png" alt="so dien thoai" width="50"> </a></div>
+    </div>
+    <div class="hotline-bar">
+      <a href="tel:0975729739"> <span class="text-hotline">0975729739</span> </a>
+    </div>
+  </div>
+
+  <div class="button">
+    <a href="#Top"><i class="fas fa-arrow-up"></i></a>
+  </div>
+
+    <section id="gach-op-lat">
+        <div class="sub-text">
+            <h1>GẠCH ỐP MEN SỨ</h1>
+        </div>
+        <div class="img-area">
+            <div class="wrap-box">
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOp/gach-op-1.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOp/gach-op-2.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOp/gach-op-3.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOp/gach-op-4.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOp/gach-op-5.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOp/gach-op-6.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOp/gach-op-7.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOp/gach-op-8.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOp/gach-op-9.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOp/gach-op-10.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOp/gach-op-11.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOp/gach-op-12.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOp/gach-op-13.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOp/gach-op-14.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOp/gach-op-15.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOp/gach-op-16.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOp/gach-op-17.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOp/gach-op-18.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOp/gach-op-19.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOp/gach-op-20.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOp/gach-op-21.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOp/gach-op-22.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOp/gach-op-23.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOp/gach-op-24.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOp/gach-op-25.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOp/gach-op-26.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOp/gach-op-27.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOp/gach-op-28.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOp/gach-op-28.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOp/gach-op-29.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOp/gach-op-30.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOp/gach-op-31.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOp/gach-op-32.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOp/gach-op-33.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOp/gach-op-34.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOp/gach-op-35.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOp/gach-op-36.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOp/gach-op-37.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOp/gach-op-38.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOp/gach-op-39.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOp/gach-op-40.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOp/gach-op-41.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOp/gach-op-42.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOp/gach-op-43.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOp/gach-op-44.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOp/gach-op-45.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOp/gach-op-46.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOp/gach-op-47.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOp/gach-op-48.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOp/gach-op-49.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOp/gach-op-50.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOp/gach-op-51.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOp/gach-op-52.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOp/gach-op-53.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOp/gach-op-54.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOp/gach-op-55.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOp/gach-op-56.webp" /></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gach-lat-nen-nha">
+        <div class="sub-text">
+            <h1>GẠCH LÁT NỀN</h1>
+        </div>
+        <div class="img-area">
+            <div class="wrap-box">
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachNen/gach-nen-1.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachNen/gach-nen-2.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachNen/gach-nen-3.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachNen/gach-nen-4.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachNen/gach-nen-5.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachNen/gach-nen-6.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachNen/gach-nen-7.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachNen/gach-nen-8.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachNen/gach-nen-9.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachNen/gach-nen-10.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachNen/gach-nen-11.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachNen/gach-nen-12.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachNen/gach-nen-13.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachNen/gach-nen-14.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachNen/gach-nen-15.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachNen/gach-nen-16.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachNen/gach-nen-17.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachNen/gach-nen-18.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachNen/gach-nen-19.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachNen/gach-nen-20.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachNen/gach-nen-21.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachNen/gach-nen-22.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachNen/gach-nen-23.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachNen/gach-nen-24.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachNen/gach-nen-25.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachNen/gach-nen-26.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachNen/gach-nen-27.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachNen/gach-nen-28.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachNen/gach-nen-29.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachNen/gach-nen-30.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachNen/gach-nen-31.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachNen/gach-nen-32.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachNen/gach-nen-33.webp" /></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gach-san-vuon">
+        <div class="sub-text">
+            <h1>GẠCH SÂN VƯỜN</h1>
+        </div>
+        <div class="img-area">
+            <div class="wrap-box">
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachSanVuon/gach-san-vuon-1.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachSanVuon/gach-san-vuon-2.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachSanVuon/gach-san-vuon-3.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachSanVuon/gach-san-vuon-4.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachSanVuon/gach-san-vuon-5.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachSanVuon/gach-san-vuon-6.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachSanVuon/gach-san-vuon-7.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachSanVuon/gach-san-vuon-8.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachSanVuon/gach-san-vuon-9.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachSanVuon/gach-san-vuon-10.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachSanVuon/gach-san-vuon-11.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachSanVuon/gach-san-vuon-12.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachSanVuon/gach-san-vuon-13.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachSanVuon/gach-san-vuon-14.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachSanVuon/gach-san-vuon-15.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachSanVuon/gach-san-vuon-16.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachSanVuon/gach-san-vuon-17.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachSanVuon/gach-san-vuon-18.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachSanVuon/gach-san-vuon-19.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachSanVuon/gach-san-vuon-20.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachSanVuon/gach-san-vuon-21.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachSanVuon/gach-san-vuon-22.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachSanVuon/gach-san-vuon-23.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachSanVuon/gach-san-vuon-24.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachSanVuon/gach-san-vuon-25.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachSanVuon/gach-san-vuon-26.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachSanVuon/gach-san-vuon-27.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachSanVuon/gach-san-vuon-28.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachSanVuon/gach-san-vuon-29.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachSanVuon/gach-san-vuon-30.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachSanVuon/gach-san-vuon-31.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachSanVuon/gach-san-vuon-32.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachSanVuon/gach-san-vuon-33.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachSanVuon/gach-san-vuon-34.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachSanVuon/gach-san-vuon-35.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachSanVuon/gach-san-vuon-36.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachSanVuon/gach-san-vuon-37.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachSanVuon/gach-san-vuon-38.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachSanVuon/gach-san-vuon-39.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachSanVuon/gach-san-vuon-40.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachSanVuon/gach-san-vuon-41.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachSanVuon/gach-san-vuon-42.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachSanVuon/gach-san-vuon-43.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachSanVuon/gach-san-vuon-44.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachSanVuon/gach-san-vuon-45.webp" /></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gach-nen-nha-tam">
+        <div class="sub-text">
+            <h1>GẠCH NỀN NHÀ TẮM</h1>
+        </div>
+        <div class="img-area">
+            <div class="wrap-box">
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachNhaTam/gach-nha-tam-1.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachNhaTam/gach-nha-tam-2.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachNhaTam/gach-nha-tam-3.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachNhaTam/gach-nha-tam-4.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachNhaTam/gach-nha-tam-5.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachNhaTam/gach-nha-tam-6.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachNhaTam/gach-nha-tam-7.webp" /></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gach-trang-tri">
+        <div class="sub-text">
+            <h1>GẠCH TRANG TRÍ</h1>
+        </div>
+        <div class="img-area">
+            <div class="wrap-box">
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachTrangTri/gach-trang-tri-1.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachTrangTri/gach-trang-tri-2.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachTrangTri/gach-trang-tri-3.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachTrangTri/gach-trang-tri-4.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachTrangTri/gach-trang-tri-5.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachTrangTri/gach-trang-tri-6.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachTrangTri/gach-trang-tri-7.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachTrangTri/gach-trang-tri-8.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachTrangTri/gach-trang-tri-9.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachTrangTri/gach-trang-tri-10.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachTrangTri/gach-trang-tri-11.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachTrangTri/gach-trang-tri-12.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachTrangTri/gach-trang-tri-13.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachTrangTri/gach-trang-tri-14.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachTrangTri/gach-trang-tri-15.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachTrangTri/gach-trang-tri-16.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachTrangTri/gach-trang-tri-17.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachTrangTri/gach-trang-tri-18.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachTrangTri/gach-trang-tri-19.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachTrangTri/gach-trang-tri-20.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachTrangTri/gach-trang-tri-21.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachTrangTri/gach-trang-tri-22.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachTrangTri/gach-trang-tri-23.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachTrangTri/gach-trang-tri-24.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachTrangTri/gach-trang-tri-25.webp" /></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gach-tranh">
+        <div class="sub-text">
+            <h1>GẠCH ỐP TRANH</h1>
+        </div>
+        <div class="img-area">
+            <div class="wrap-box">
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOpTranh/gach-op-tranh-1.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOpTranh/gach-op-tranh-2.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOpTranh/gach-op-tranh-3.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOpTranh/gach-op-tranh-4.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOpTranh/gach-op-tranh-5.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOpTranh/gach-op-tranh-6.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOpTranh/gach-op-tranh-7.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOpTranh/gach-op-tranh-8.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOpTranh/gach-op-tranh-9.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOpTranh/gach-op-tranh-10.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOpTranh/gach-op-tranh-11.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOpTranh/gach-op-tranh-12.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOpTranh/gach-op-tranh-13.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOpTranh/gach-op-tranh-14.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOpTranh/gach-op-tranh-15.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOpTranh/gach-op-tranh-16.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOpTranh/gach-op-tranh-17.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOpTranh/gach-op-tranh-18.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachOpTranh/gach-op-tranh-19.webp" /></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gach-tham">
+        <div class="sub-text">
+            <h1>GẠCH THẢM</h1>
+        </div>
+        <div class="img-area">
+            <div class="wrap-box">
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachTham/gach-tham-1.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachTham/gach-tham-2.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachTham/gach-tham-3.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachTham/gach-tham-4.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachTham/gach-tham-5.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachTham/gach-tham-6.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachTham/gach-tham-7.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachTham/gach-tham-8.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachTham/gach-tham-9.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachTham/gach-tham-10.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachTham/gach-tham-11.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachTham/gach-tham-12.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachTham/gach-tham-13.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachTham/gach-tham-14.webp" /></a>
+                </div>
+                <div class="single-box">
+                    <a><img id="myImg" src="image/GachTham/gach-tham-15.webp" /></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <span class="close">&#10060;</span>
+        <img id="modal-img" class="modal-content"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQS2ol73JZj6-IqypxPZXYS3rRiPwKteoD8vezk9QsRdkjt3jEn&usqp=CAU">
+
+        <div id="caption"></div>
+    </div>
+    
+  <!-- Custom Javascript -->
+  <script src="JS/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
