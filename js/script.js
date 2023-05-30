@@ -68,10 +68,10 @@ var captionText = document.getElementById("caption");
 
 document.addEventListener("click", (e) => {
   const elem = e.target;
-  if (elem.id==="myImg") {
+  if (elem.id === "myImg") {
     modal.style.display = "block";
     modalImg.src = elem.dataset.biggerSrc || elem.src;
-    captionText.innerHTML = elem.alt; 
+    captionText.innerHTML = elem.alt;
   }
 })
 
@@ -79,20 +79,6 @@ document.addEventListener("click", (e) => {
 var span = document.getElementsByClassName("close")[0];
 
 // When the user clicks on <span> (x), close the modal
-span.onclick = function() { 
+span.onclick = function () {
   modal.style.display = "none";
 }
-
-var swiper = new Swiper(".mySwiper", {
-  slidesPerView: 1,
-  loop: true,
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-});
-
