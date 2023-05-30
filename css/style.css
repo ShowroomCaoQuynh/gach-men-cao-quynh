@@ -820,7 +820,7 @@ nav .navbar .links li:hover .js-sub-menu {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url(brick-banner.webp);
+    background: url("brick-banner.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -834,7 +834,7 @@ nav .navbar .links li:hover .js-sub-menu {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url(paint-banner.webp);
+    background: url("paint-banner.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -848,7 +848,7 @@ nav .navbar .links li:hover .js-sub-menu {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url(device-banner.webp);
+    background: url("device-banner.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -862,7 +862,7 @@ nav .navbar .links li:hover .js-sub-menu {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url(project-banner.webp);
+    background: url("project-banner.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
