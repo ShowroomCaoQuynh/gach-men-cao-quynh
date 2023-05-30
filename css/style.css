@@ -806,7 +806,7 @@ nav .navbar .links li:hover .js-sub-menu {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url("/css/showroom-banner.webp");
+    background: url("showroom-banner.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
