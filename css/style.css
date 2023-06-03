@@ -24,11 +24,17 @@ nav {
     z-index: 99;
 }
 
+html, body {
+
+     overflow-x: hidden;
+}
+
+
 html {
     font-size: 62.5%;
     scroll-behavior: smooth;
     scroll-padding-top: 6rem;
-    overflow-x: hidden;
+
 }
 
 .logo img {
